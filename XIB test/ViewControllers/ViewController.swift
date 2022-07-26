@@ -42,7 +42,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: UserTableViewCell.cellId, for: indexPath) as! UserTableViewCell
         let user = user[indexPath.row]
-        cell.backgroundColor = .orange
         cell.setup(user: user)
         return cell
     }

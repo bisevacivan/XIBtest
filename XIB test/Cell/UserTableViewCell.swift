@@ -21,7 +21,9 @@ class UserTableViewCell: UITableViewCell {
     // MARK: - Public Methods
     
     func setup(user: String) {
+        self.backgroundColor = .orange
         self.userLabel.text = user
+        
         
     }
     
