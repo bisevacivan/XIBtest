@@ -21,7 +21,11 @@ class UserTableViewCell: UITableViewCell {
     // MARK: - Public Methods
     
     func setup(user: String) {
+<<<<<<< Updated upstream
         self.backgroundColor = .orange
+=======
+        self.selectionStyle = .none
+>>>>>>> Stashed changes
         self.userLabel.text = user
         
         
